@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    tools:context=".homeActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Get date  to main"
+        android:background="#197"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/baseline_person_24"
+        android:layout_marginBottom="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Email:_"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/edittext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="name"
+            />
+    </LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     >
+     <TextView
+         android:layout_width="170dp"
+         android:layout_height="wrap_content"
+         android:text="Password:_"
+         android:gravity="center"
+         />
+     <TextView
+     android:id="@+id/edittext2"
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:text="name"
+     />
+
+ </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    >
+    <Button
+        android:gravity="center"
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Logout"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Edit Button"
+        />
+</LinearLayout>
+
+
+</LinearLayout>
